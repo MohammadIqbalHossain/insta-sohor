@@ -73,12 +73,7 @@
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        javaScript runs by Chrome v8 engine. different browser use differnt engine such as firefox uses SpiderMonkey.Engine has a memory heap and a callstack. javaScript code runs synchrounasly. When we try to execute code, it's makes a window object, obejct has three things <strong>this keyword</strong>,<strong>variables</strong>, and <strong>functions</strong>, firstly it's takes all the declareation in the memory, functions body is taken by also memory. In executions javaScript inserts the value, when we call a function function indivitually maeks an object. function also execute like window object.functions are goes to callstack for the execution.  when executions ends objects are will be popoout.
                     </div>
                 </div>
             </div>
@@ -92,12 +87,7 @@
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                      javaScript event loop Actually used for executing some code asyncrounusly. When we set a function like <strong>setTimeOut</strong>, <strong>setEnterval()</strong>, These code has to be runs after a certain time. We know that javaScript is single threated programming language. To execute these code asyncrounusly browser takes help of web API, When javaScript sees asyncrounusly functions it will handover to the web API. and javaScript executes next code, When web API does it's job, it will handover functions to quene. and here is event loop works, event loop actually compare quene and callstack, if callstack is empty, event loop handovers functions to the callstack. and functions executes.  
                     </div>
                 </div>
             </div>
@@ -111,12 +101,8 @@
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        1. <strong>localStorage: </strong>localStorage data will be last untill we explicitly delete it. <br>
+                        <strong>SessionStorage:</strong>SessionStorage data is just for a certain time. It will be removed when we close the tab.
                     </div>
                 </div>
             </div>

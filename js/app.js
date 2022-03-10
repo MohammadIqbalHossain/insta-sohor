@@ -1,4 +1,4 @@
-let posts=[ ];
+let posts=[];
 
 const likedPostsId = [];
 const reportedPostsId = [];
@@ -133,7 +133,6 @@ const createPost = (post) => {
 };
 
 const showPosts = (posts) => {
-   
     const productsContainer = document.getElementById( "posts" );
     productsContainer.innerHTML = "";
     posts.forEach((post) => {
